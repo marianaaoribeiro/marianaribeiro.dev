@@ -1,5 +1,5 @@
 <template>
-  <v-card class="bg-avatar rounded-0" dark>
+  <v-card class="bg-avatar rounded-0" dark id="devDetails">
     <v-container class="py-16">
       <v-row justify="center">
         <v-col cols="12" sm="6" align="center">
@@ -33,5 +33,6 @@
 .bg-avatar {
   background-image: url("../assets/bg-avatar.svg");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 </style>

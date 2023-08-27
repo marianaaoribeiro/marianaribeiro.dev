@@ -15,15 +15,17 @@
       <v-app-bar-nav-icon
         v-if="$vuetify.breakpoint.mobile"
         @click="drawer = true"
-      ></v-app-bar-nav-icon>
-      <div class="mr-8" v-else>
+      />
+      <div v-else>
         <v-tabs v-model="tab" background-color="primary">
           <v-tab
             v-for="(item, index) in routes"
             :key="index"
-            class="text-none"
-            >{{ item.name }}</v-tab
-          >
+            >
+            <a :href="item.to" :key="index" class="text-none white--text text-decoration-none"> 
+            {{ item.name }}
+          </a>
+          </v-tab>
         </v-tabs>
       </div>
     </v-app-bar>
@@ -58,11 +60,11 @@ export default {
     routes: [
       {
         name: "Início",
-        to: "",
+        to: "#devDetails",
       },
       {
         name: "Sobre",
-        to: "",
+        to: "#aboutme",
       },
       {
         name: "Tecnologias",
