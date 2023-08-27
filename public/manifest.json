@@ -1,0 +1,14 @@
+{
+  "name": "Mariana Ribeiro",
+  "short_name": "marianaribeiro.dev",
+  "icons": [
+    {
+      "src": "src/assets/logo.svg",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/app",
+  "display": "fullscreen",
+  "background_color": "#757575",
+  "theme_color": "#757575"
+}
