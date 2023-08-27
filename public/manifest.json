@@ -1,9 +1,9 @@
 {
   "name": "Mariana Ribeiro",
-  "short_name": "marianaribeiro.dev",
+  "short_name": "mariana.dev",
   "icons": [
     {
-      "src": "src/assets/logo.svg",
+      "src": "src/assets/logo.png",
       "type": "image/png"
     }
   ],
