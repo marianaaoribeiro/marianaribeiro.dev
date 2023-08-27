@@ -18,7 +18,15 @@
             Mariana Ribeiro
           </div>
           <p class="title">Desenvolvedora Front-end</p>
-          <v-btn outlined class="rounded-lg" dense> Baixar Currículo </v-btn>
+          <v-btn
+            outlined
+            class="rounded-lg"
+            dense
+            target="_blank"
+            href="https://drive.google.com/u/0/uc?id=1Lzd-cy7YMSYA7wkgbwNXHFdQlkWRyTKQ&export=download"
+          >
+            Baixar Currículo
+          </v-btn>
         </v-col>
       </v-row>
     </v-container>

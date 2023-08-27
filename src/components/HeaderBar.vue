@@ -84,6 +84,10 @@ export default {
         to: "#experiences",
       },
       {
+        name: "Formação",
+        to: "#education",
+      },
+      {
         name: "Contato",
         to: "#contact",
       },

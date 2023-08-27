@@ -4,6 +4,7 @@
     <about-me />
     <skills-with />
     <experiences-with />
+    <academic-education />
     <contact-me />
   </div>
 </template>
@@ -12,6 +13,7 @@
 import devDetails from '@/components/DevDetails.vue'
 import aboutMe from '@/components/AboutMe.vue'
 import skillsWith from '@/components/SkillsWith.vue'
+import academicEducation from '@/components/AcademicEducation.vue'
 import contactMe from '@/components/ContactMe.vue'
 import experiencesWith from '@/components/ExperiencesWith.vue'
 
@@ -22,7 +24,8 @@ import experiencesWith from '@/components/ExperiencesWith.vue'
       aboutMe,
       skillsWith,
       contactMe,
-      experiencesWith
+      experiencesWith,
+      academicEducation
     }
    
   }
