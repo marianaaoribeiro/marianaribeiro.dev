@@ -3,6 +3,7 @@
     <dev-details />
     <about-me />
     <skills-with />
+    <experiences-with />
     <contact-me />
   </div>
 </template>
@@ -12,6 +13,7 @@ import devDetails from '@/components/DevDetails.vue'
 import aboutMe from '@/components/AboutMe.vue'
 import skillsWith from '@/components/SkillsWith.vue'
 import contactMe from '@/components/ContactMe.vue'
+import experiencesWith from '@/components/ExperiencesWith.vue'
 
   export default {
     name: 'HomeWiew',
@@ -19,7 +21,8 @@ import contactMe from '@/components/ContactMe.vue'
       devDetails,
       aboutMe,
       skillsWith,
-      contactMe
+      contactMe,
+      experiencesWith
     }
    
   }

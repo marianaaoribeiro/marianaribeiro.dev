@@ -80,6 +80,10 @@ export default {
         to: "#skills",
       },
       {
+        name: "Experiências",
+        to: "#experiences",
+      },
+      {
         name: "Contato",
         to: "#contact",
       },
