@@ -17,14 +17,15 @@
         @click="drawer = true"
       />
       <div v-else>
-        <v-tabs v-model="tab" background-color="primary">
-          <v-tab
-            v-for="(item, index) in routes"
-            :key="index"
+        <v-tabs v-model="tab" background-color="primary" slider-color="primary">
+          <v-tab v-for="(item, index) in routes" :key="index">
+            <a
+              :href="item.to"
+              :key="index"
+              class="text-none white--text text-decoration-none"
             >
-            <a :href="item.to" :key="index" class="text-none white--text text-decoration-none"> 
-            {{ item.name }}
-          </a>
+              {{ item.name }}
+            </a>
           </v-tab>
         </v-tabs>
       </div>
@@ -44,7 +45,15 @@
           active-class="deep-purple--text text--accent-4"
         >
           <v-list-item v-for="(item, index) in routes" :key="index">
-            <v-list-item-title>{{ item.name }}</v-list-item-title>
+            <v-list-item-title>
+              <a
+                :href="item.to"
+                :key="index"
+                class="text-none white--text text-decoration-none"
+              >
+                {{ item.name }}
+              </a>
+            </v-list-item-title>
           </v-list-item>
         </v-list-item-group>
       </v-list>
