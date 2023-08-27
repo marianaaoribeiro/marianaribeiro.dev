@@ -64,15 +64,15 @@ export default {
       },
       {
         name: "Sobre",
-        to: "#aboutme",
+        to: "#aboutMe",
       },
       {
         name: "Tecnologias",
-        to: "",
+        to: "#skills",
       },
       {
         name: "Contato",
-        to: "",
+        to: "#contact",
       },
     ],
   }),

@@ -3,7 +3,12 @@
     <v-container>
       <v-row>
         <v-col cols="12" sm="8">
-          <p class="text-h4 font-weight-bold">Sobre mim</p>
+          <p class="text-h4 font-weight-bold">
+            <v-icon small color="tertiary">
+                far fa-circle-dot
+            </v-icon>
+            Sobre mim
+          </p>
           <p>
             Sou desenvolvedora <span class="font-weight-bold">Front-end</span> com formação em Análise e
             Desenvolvimento de Sistemas pela FIAP. Com mais de três anos de
