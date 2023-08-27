@@ -8,7 +8,7 @@
           contain
           :src="require('@/assets/mariana.svg')"
           transition="scale-transition"
-          width="160"
+          width="140"
         />
       </div>
       <v-spacer />

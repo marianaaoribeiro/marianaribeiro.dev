@@ -18,10 +18,10 @@
           small
         >
           <v-row justify="space-between">
-            <v-col cols="9" class="title">
+            <v-col cols="'2" sm="9" class="title">
               {{ item.title }}
             </v-col>
-            <v-col class="text-right" cols="3">
+            <v-col class="text-right" cols="'2" sm="3">
               {{ item.date }}
             </v-col>
             <v-col cols="12">

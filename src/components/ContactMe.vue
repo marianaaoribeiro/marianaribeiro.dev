@@ -9,7 +9,7 @@
           </p>
           <v-divider dark class="my-7" />
           <v-row>
-            <v-col cols="6">
+            <v-col  cols="12" sm="6">
               <p v-for="(item, index) in contacts" :key="index">
                 <v-icon small color="tertiary" class="mr-3">
                   {{ item.icon }}
@@ -17,7 +17,7 @@
                 {{ item.text }}
               </p>
             </v-col>
-            <v-col cols="6">
+            <v-col cols="12" sm="6">
               <p v-for="(item, index) in links" :key="index">
                 <a
                   :href="item.link"
